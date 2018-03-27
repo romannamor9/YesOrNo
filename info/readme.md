@@ -3,7 +3,9 @@ https://github.com/achillean/shodan-python    shodan API на Python
 
 
 ps aux 
+
 /n
+
 for a in $(ls /usr/sbin /usr/bin); do ps -fC $a;done|grep -v PPID
 ip=$(curl ip.pla1.net)  ір в змінну
 
